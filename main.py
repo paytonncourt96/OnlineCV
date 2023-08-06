@@ -2,9 +2,6 @@ import streamlit as st
 import pandas as pd
 
 def Bio():
-    bio_header = st.container()
-    with bio_header:
-        st.title("Welcome to my bio!")
     with st.container():
         st.header("Biography")
         st.write("Bio: Hello! I am currently working for Indiana University School of Medicine as a Financial Analyst for clinical trials while pursuing a part-time Master's degree in Data Science at Indiana University Bloomington. I am eager and well-prepared to embrace Data Science opportunities, having gained invaluable knowledge and experience through both my previous job roles and educational pursuits.") 
