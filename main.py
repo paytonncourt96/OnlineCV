@@ -1,10 +1,24 @@
 import streamlit as st
+
+def Bio():
+    bio_header = st.container()
+    with bio_header:
+        st.title("Welcome to my bio!")
+def Skills():
+    skill_header = st.container()
+    with skill_header:
+        st.title("Skills")
+def Projects():
+    project_header = st.container()
+    with project_header:
+        st.title("Current Projects")
+
 def main():
     header = st.container()
     with header:
         st.title("Courtney Shammas")
     buttons = st.sidebar.radio("Select content",["Bio", "Skills", "Projects"])
-    image_url = "https://github.com/paytonncourt96/OnlineCV/raw/main/CV_picture.jpg"
+    image_url = "https://github.com/paytonncourt96/OnlineCV/raw/main/CV_picture1.jpg"
     st.image(image_url,  width=200, use_column_width=False)
        
     if buttons == "Bio":
