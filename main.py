@@ -10,7 +10,7 @@ def Skills():
     with skill_header:
         st.title("Skills")
     skills_data = { 
-        "Skill": ["Data Visualization", "Machine Learning", "Data Analysis", "Data Cleaning", "Python", "Java", "R", "SQL/noSQl", "Pandas", "NumPy", "MatPlotLib", "seaborn", "Tensorflow", "Keras", "Torch", "Statistical Analysis"]
+        "Skill": ["Data Visualization", "Machine Learning", "Data Analysis", "Data Cleaning", "Python", "Java", "R", "SQL/noSQl", "Pandas", "NumPy", "MatPlotLib", "seaborn", "Tensorflow", "Keras", "Torch", "Statistical Analysis"],
         "Years of Experience":  [4, 1, 2, 2, 4, 1, 4, 1, 4, 4, 4, 4, 1, 1, 1, 6]
     skills_df = pd.DataFrame(skills_data)
 
