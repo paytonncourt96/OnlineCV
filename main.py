@@ -4,8 +4,8 @@ def main():
     with header:
         st.title("Courtney Shammas")
     buttons = st.sidebar.radio("Select content",["Bio", "Skills", "Projects"])
-    main_image = "https://raw.githubusercontent.com/paytonncourt96/onlinecv/blob/main/CV_picture.jpg"
-    st.image(main_image,  width=200, use_column_width=False)
+    image_url = "https://github.com/paytonncourt96/OnlineCV/raw/main/CV_picture.jpg"
+    st.image(image_url,  width=200, use_column_width=False)
        
     if buttons == "Bio":
         # Login page
