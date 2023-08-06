@@ -1,5 +1,5 @@
 import streamlit as st
-import plotly.graph_objects as go
+import pandas as pd
 
 def Bio():
     bio_header = st.container()
@@ -9,20 +9,13 @@ def Skills():
     skill_header = st.container()
     with skill_header:
         st.title("Skills")
-    skills = ["Data Visualization", "Machine Learning", "Data Analysis", "Data Cleaning", "Python", "Java", "R", "SQL/noSQl", "Pandas", "NumPy", "MatPlotLib", "seaborn", "Tensorflow", "Keras", "Torch", "Statistical Analysis"]
-    skill_levels = [80, 90, 70, 85, 70, 90, 65, 70, 90, 90, 90, 90, 90, 90, 90, 90]
-    fig = go.Figure(data=go.Bar(x=skills, y=skill_levels, marker_color="rgb(65, 168, 121)"))
+    skills_data = { 
+        "Skill": ["Data Visualization", "Machine Learning", "Data Analysis", "Data Cleaning", "Python", "Java", "R", "SQL/noSQl", "Pandas", "NumPy", "MatPlotLib", "seaborn", "Tensorflow", "Keras", "Torch", "Statistical Analysis"]
+        "Years of Experience":  [4, 1, 2, 2, 4, 1, 4, 1, 4, 4, 4, 4, 1, 1, 1, 6]
+    skills_df = pd.DataFrame(skills_data)
 
-    fig.update_layout(
-        title="My Skills",
-        xaxis_title="Skill",
-        yaxis_title="Skill Level",
-        xaxis=dict(tickfont_size=14),
-        yaxis=dict(tickfont_size=14),
-        margin=dict(l=50, r=50, t=50, b=50),
-    )
-
-    st.plotly_chart(fig)
+   
+    st.table(skills_df)
     
 def Projects():
     project_header = st.container()
