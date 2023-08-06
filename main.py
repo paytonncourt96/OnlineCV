@@ -8,7 +8,7 @@ def Bio():
     with st.container():
         st.header("Biography")
         st.write("Bio: Hello! I am currently working for Indiana University School of Medicine as a Financial Analyst for clinical trials while pursuing a part-time degree in Data Science at Indiana University Bloomington. I am eager and well-prepared to embrace Data Science opportunities, having gained invaluable knowledge and experience through both my previous job roles and educational pursuits.") 
-        st.write("My main interest/emphasis within my education has been Machine Learning. One of the most exciting projects I have had the opporunity to work on is an image detection program utilizing many well-known architectures of Convoleutional Neural Networks.")
+        st.write("My main interest/emphasis within my education has been Machine Learning. One of the most exciting projects I have had the opporunity to work on is an image detection program utilizing many well-known architectures of Convolutional neural networks.")
         st.write("Age: 26")
         st.write("Location: Indianapolis, Indiana, United States")
         st.write("Occupation: Financial Analyst")
