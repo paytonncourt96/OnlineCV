@@ -11,7 +11,7 @@ def Skills():
         st.title("Skills")
     skills = ["Data Visualization", "Machine Learning", "Data Analysis", "Data Cleaning", "Python", "Java", "R", "SQL/noSQl", "Pandas", "NumPy", "MatPlotLib", "seaborn", "Tensorflow", "Keras", "Torch", "Statistical Analysis"]
     skill_levels = [80, 90, 70, 85, 70, 90, 65, 70, 90, 90, 90, 90, 90, 90, 90, 90]
-        fig = go.Figure(data=go.Bar(x=skills, y=skill_levels, marker_color="rgb(65, 168, 121)"))
+    fig = go.Figure(data=go.Bar(x=skills, y=skill_levels, marker_color="rgb(65, 168, 121)"))
 
     # Update chart layout for better visualization
     fig.update_layout(
