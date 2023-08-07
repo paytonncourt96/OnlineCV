@@ -36,7 +36,7 @@ def Skills():
 def main():
     header = st.container()
     with header:
-        st.title("Courtney Shammas")
+        st.title("Courtney Payton")
     buttons = st.sidebar.radio("Select content",["Bio", "Skills"])#"Projects"
     image_url = "https://github.com/paytonncourt96/OnlineCV/raw/main/CV_picture1.jpg"
     st.image(image_url,  width=200, use_column_width=False)
