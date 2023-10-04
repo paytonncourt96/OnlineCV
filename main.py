@@ -6,7 +6,7 @@ def Bio():
         st.header("Biography")
         st.write("Hello! I am currently working for Indiana University School of Medicine as a Financial Analyst for clinical trials while pursuing a part-time Master's degree in Data Science at Indiana University Bloomington. I am eager and well-prepared to embrace Data Science opportunities, having gained invaluable knowledge and experience through both my previous job roles and educational pursuits.") 
         st.write("My main interest/emphasis within my education has been Machine Learning. One of the most exciting projects I have had the opportunity to work on is an image detection program utilizing many well-known architectures of Convolutional neural networks.")
-        st.write("Age: 26")
+        st.write("Age: 27")
         st.write("Location: Indianapolis, Indiana, United States")
         st.write("Occupation: Financial Analyst")
         st.write("Education: Bachelor's of Science in Mathematics(Graduated 2019) and Bachelor's of Arts in Physics(Graduated 2019)")
