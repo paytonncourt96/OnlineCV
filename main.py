@@ -4,11 +4,11 @@ import pandas as pd
 def Bio():
     with st.container():
         st.header("Biography")
-        st.write("Hello! I am currently working for the state of Indiana as a Data Scientist at the Family and Social Services Administration(FSSA) while pursuing a part-time Master's degree in Data Science at Indiana University Bloomington. I am eager and well-prepared to embrace Data Science opportunities, having gained invaluable knowledge and experience through both my previous job roles and educational pursuits.") 
+        st.write("Hello! I am currently working for the state of Indiana as a Data Engineer at the Family and Social Services Administration(FSSA) while pursuing a part-time Master's degree in Data Science at Indiana University Bloomington. I am eager and well-prepared to embrace Data Science opportunities, having gained invaluable knowledge and experience through both my previous job roles and educational pursuits.") 
         st.write("My main interest/emphasis within my education has been Machine Learning. One of the most exciting projects I have had the opportunity to work on is an image detection program utilizing many well-known architectures of Convolutional neural networks.")
-        st.write("Age: 27")
+        st.write("Age: 28")
         st.write("Location: Indianapolis, Indiana, United States")
-        st.write("Occupation: Data Scientist")
+        st.write("Occupation: Data Engineer")
         st.write("Education: Bachelor's of Science in Mathematics(Graduated 2019) and Bachelor's of Arts in Physics(Graduated 2019)")
         st.write("Interests: Hiking, Biking, Reading(mainly science fiction!), and playing fetch with my dog Bjorn ")
         st.write("Contact: paytonncourt96@gmail.com")
