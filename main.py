@@ -4,7 +4,7 @@ import pandas as pd
 def Bio():
     with st.container():
         st.header("Biography")
-        st.write("Hello! I am currently working for the state of Indiana as a Data Engineer at the Family and Social Services Administration(FSSA) while pursuing a part-time Master's degree in Data Science at Indiana University Bloomington. I am eager and well-prepared to embrace Data Science opportunities, having gained invaluable knowledge and experience through both my previous job roles and educational pursuits.") 
+        st.write("Hello! I am currently working for Third Horizon as a DevOps Engineer at the Family and Social Services Administration(FSSA) while pursuing a part-time Master's degree in Data Science at Indiana University Bloomington. I am eager and well-prepared to embrace Data Science opportunities, having gained invaluable knowledge and experience through both my previous job roles and educational pursuits.") 
         st.write("My main interest/emphasis within my education has been Machine Learning. One of the most exciting projects I have had the opportunity to work on is an image detection program utilizing many well-known architectures of Convolutional neural networks.")
         st.write("Age: 28")
         st.write("Location: Indianapolis, Indiana, United States")
@@ -53,3 +53,4 @@ def main():
         
 if __name__ == "__main__":
     main()
+
