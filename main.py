@@ -5,10 +5,10 @@ def Bio():
     with st.container():
         st.header("Biography")
         st.write(
-            "Hello! I currently work at Third Horizon as a DevOps Engineer supporting "
-            "carrier-facing applications in the Medicaid ecosystem. My role focuses on "
-            "building and maintaining reliable infrastructure and data platforms that "
-            "enable scalable, production-grade healthcare systems."
+            "I am a DevOps Engineer at Third Horizon, where my work centers on healthcare "
+            "data systems with a focus on carrier cost data and Machine-Readable Files (MRFs). "
+            "I support infrastructure and data workflows that enable analysis of complex, "
+            "large-scale pricing and cost datasets."
         )
         st.write(
             "My professional background is rooted in the Medicaid claims and CMS space, "
@@ -80,5 +80,6 @@ def main():
         
 if __name__ == "__main__":
     main()
+
 
 
