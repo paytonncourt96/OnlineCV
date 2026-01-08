@@ -35,7 +35,7 @@ def Bio():
             "Bachelor of Arts in Physics (2019)"
         )
         st.write(
-            "Interests: Hiking, biking, reading science fiction, and playing fetch with my dog Bjorn"
+            "Interests: Hiking, biking, running, reading science fiction, and playing fetch with my dog Bjorn"
         )
         st.write("Contact: paytonncourt96@gmail.com")
         st.write("Connect with me:")
@@ -80,6 +80,7 @@ def main():
         
 if __name__ == "__main__":
     main()
+
 
 
 
