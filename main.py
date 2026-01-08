@@ -4,16 +4,43 @@ import pandas as pd
 def Bio():
     with st.container():
         st.header("Biography")
-        st.write("Hello! I am currently working for Third Horizon as a DevOps Engineer at the Family and Social Services Administration(FSSA) while pursuing a part-time Master's degree in Data Science at Indiana University Bloomington. I am eager and well-prepared to embrace Data Science opportunities, having gained invaluable knowledge and experience through both my previous job roles and educational pursuits.") 
-        st.write("My main interest/emphasis within my education has been Machine Learning. One of the most exciting projects I have had the opportunity to work on is an image detection program utilizing many well-known architectures of Convolutional neural networks.")
-        st.write("Age: 28")
+        st.write(
+            "Hello! I currently work at Third Horizon as a DevOps Engineer supporting "
+            "carrier-facing applications in the Medicaid ecosystem. My role focuses on "
+            "building and maintaining reliable infrastructure and data platforms that "
+            "enable scalable, production-grade healthcare systems."
+        )
+        st.write(
+            "My professional background is rooted in the Medicaid claims and CMS space, "
+            "with a strong emphasis on cost analysis, claims data, and large-scale "
+            "healthcare datasets. This experience has given me a deep understanding of "
+            "how policy, data, and technology intersect in public health programs."
+        )
+        st.write(
+            "I hold a Master's degree in Data Science from Indiana University Bloomington, "
+            "with a concentration in Machine Learning. My academic work focused on applying "
+            "statistical modeling and machine learning techniques to complex, real-world data."
+        )
+        st.write(
+            "By combining hands-on experience with claims data and cost modeling with my "
+            "current work on carrier-side systems, I bring a well-rounded perspective to "
+            "data engineering and machine learning challenges in healthcare."
+        )
+
         st.write("Location: Indianapolis, Indiana, United States")
-        st.write("Occupation: Data Engineer")
-        st.write("Education: Bachelor's of Science in Mathematics(Graduated 2019) and Bachelor's of Arts in Physics(Graduated 2019)")
-        st.write("Interests: Hiking, Biking, Reading(mainly science fiction!), and playing fetch with my dog Bjorn ")
+        st.write("Occupation: DevOps Engineer | Healthcare Data and Artifical Intelligence")
+        st.write(
+            "Education: Master of Science in Data Science, Indiana University Bloomington | "
+            "Bachelor of Science in Mathematics (2019) | "
+            "Bachelor of Arts in Physics (2019)"
+        )
+        st.write(
+            "Interests: Hiking, biking, reading science fiction, and playing fetch with my dog Bjorn"
+        )
         st.write("Contact: paytonncourt96@gmail.com")
-        st.write("Connect with me!")
+        st.write("Connect with me:")
         st.write("https://www.linkedin.com/in/courtney-payton96/")
+
 
 def Skills():
     skill_header = st.container()
@@ -53,4 +80,5 @@ def main():
         
 if __name__ == "__main__":
     main()
+
 
